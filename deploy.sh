@@ -1,2 +1,2 @@
 ./build.sh
-aws ecs update-service --cluster biaplan10dews2 --service svcbiaplan10dews2  --force-new-deployment
+aws ecs update-service --cluster cl1biaplan10des2 --service svc1cl1biaplan10des2  --force-new-deployment
