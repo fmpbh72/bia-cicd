@@ -20,7 +20,7 @@ const Header = ({ title, onAdd, showAdd }) => {
 };
 
 Header.defaultProps = {
-  title: "BIA 2024. Planilha 10 - Desafio 2 - Novembro 2024",
+  title: "BIA 2024. Planilha 10 - Desafio 2 - Novembro 2024 - BICICD",
 };
 
 export default Header;
