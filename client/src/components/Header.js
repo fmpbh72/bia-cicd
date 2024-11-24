@@ -10,8 +10,8 @@ const Header = ({ title, onAdd, showAdd }) => {
       {/* <h3>process.env.EMAIL_ALUNO</h3> */}
       {location.pathname === "/" && (
         <Button
-          color={showAdd ? "orange" : "gray"}
-          text={showAdd ? "Add/Incluir" : "Fechar/Gravar"}
+          color={showAdd ? "orange" : "purple"}
+          text={showAdd ? "Fechado" : "Aberto"}
           onClick={onAdd}
         />
       )}
@@ -20,7 +20,7 @@ const Header = ({ title, onAdd, showAdd }) => {
 };
 
 Header.defaultProps = {
-  title: "BIA 2024. Planilha 10 - Desafio 2 - Novembro 2024 - BICICD",
+  title: "BIA 2024 - Plan10des2 - CICD",
 };
 
 export default Header;

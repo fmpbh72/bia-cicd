@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
-import  from "./components/";
+import About from "./components/About";
 const apiUrl = process.env.REACT_APP_API_URL || "http://localhost:8080";
 
 function App() {

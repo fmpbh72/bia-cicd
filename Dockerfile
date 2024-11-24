@@ -1,7 +1,8 @@
-FROM node:21-slim
-#FROM public.ecr.aws/docker/library/node:21-slim
-
+FROM public.ecr.aws/docker/library/node:21-slim
 RUN npm install -g npm@latest --loglevel=error
+
+#Instalando o curl
+RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /usr/src/app
 
