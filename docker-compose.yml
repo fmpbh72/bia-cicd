@@ -6,17 +6,17 @@ services:
       - 80:8080
     links:
       - database
-    #environment:
-    #  DB_USER: postgres
-    #  DB_PWD: postgres
-    #  DB_HOST: databasebiadb.c1g4ii6ssn81.us-east-1.rds.amazonaws.com
-    #  DB_PORT: 5432
+    environment:
+      DB_USER: postgres
+      DB_PWD: postgres
+      DB_HOST: biadb.c1g4ii6ssn81.us-east-1.rds.amazonaws.com
+      DB_PORT: 5432
       ## NAO PRECISA NO BOOTCAMP DAQUI PRA BAIXO ##
-      # DB_SECRET_NAME: 
-      # DB_REGION: 
+      #DB_SECRET_NAME: rds!db-002e3660-d935-418e-8786-d5ace59596c4
+      #DB_REGION: us-east-1 
       # AWS_ACCESS_KEY_ID: 
       # AWS_SECRET_ACCESS_KEY:
-      # DEBUG_SECRET: 
+      #DEBUG_SECRET: 
       # IS_LOCAL: true 
     # healthcheck:
     #   test: ["CMD", "curl", "-f", "http://localhost:8080/api/versao"]
