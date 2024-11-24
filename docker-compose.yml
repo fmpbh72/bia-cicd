@@ -12,7 +12,7 @@ services:
       DB_HOST: database-plan10des2.c1g4ii6ssn81.us-east-1.rds.amazonaws.com
       DB_PORT: 5432
 # # NAO PRECISA NO BOOTCAMP DAQUI PRA BAIXO ##
-      DB_SECRET_NAME: rds!db-bb91e4db-aedb-43b2-93c2-e83d07ff3e82-glLgtB
+      DB_SECRET_NAME: rds!db-bb91e4db-aedb-43b2-93c2-e83d07ff3e82
       DB_REGION: us-east-1 
       # AWS_ACCESS_KEY_ID: 
       # AWS_SECRET_ACCESS_KEY:
