@@ -1,9 +1,4 @@
-#FROM public.ecr.aws/docker/library/node:21-slim
-
-FROM alpine:latest
-
-# Instalar Node.js e npm
-RUN apk add --no-cache nodejs npm
+FROM public.ecr.aws/docker/library/node:21-slim
 
 RUN npm install -g npm@latest --loglevel=error
 
