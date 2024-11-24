@@ -11,7 +11,7 @@ services:
       DB_PWD: postgres
       DB_HOST: database-plan10des2.c1g4ii6ssn81.us-east-1.rds.amazonaws.com
       DB_PORT: 5432
-      ## NAO PRECISA NO BOOTCAMP DAQUI PRA BAIXO ##
+## NAO PRECISA NO BOOTCAMP DAQUI PRA BAIXO ##
       DB_SECRET_NAME: rds!db-002e3660-d935-418e-8786-d5ace59596c4
       DB_REGION: us-east-1 
       # AWS_ACCESS_KEY_ID: 
@@ -22,5 +22,5 @@ services:
     #   test: ["CMD", "curl", "-f", "http://localhost:8080/api/versao"]
     #   interval: 10s
     #   timeout: 5s
-    #   retries: 3
+    #   retries: 3 
     #   start_period: 5s     
