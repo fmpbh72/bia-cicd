@@ -1,2 +1,3 @@
 ./build.sh
-aws ecs update-service --cluster cluster-bia-pipeline --service bia-svc-pipeline  --force-new-deployment
+aws ecs update-service --cluster cl1biaplan10des2 --service svc1cl1biaplan10des2  --force-new-deployment
+#inserir o ecs
