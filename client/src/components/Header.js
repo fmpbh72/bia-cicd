@@ -20,7 +20,8 @@ const Header = ({ title, onAdd, showAdd }) => {
 };
 
 Header.defaultProps = {
-  title: "BIA 2024 - Plan10des2 - CICD - Deploying - arranquei uma parte",
+  title: "BIA 2024 - Plan10des2 - CICD - Deploying - Alterando novamente",
 };
 
 export default Header;
+
